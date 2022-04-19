@@ -1,0 +1,19 @@
+body{
+    background: #dfdfdf
+}
+
+p {
+    color: #000000;
+}
+
+.minha-foto{
+    width: 250px;
+    border: 2px solid rgb(231, 229, 229);  /* Shorthand */
+    border-radius: 100% 100% 100% 100%; /* Arredondar cantos, podendo passar até 4 valores para cada uma das bordas */
+    /* escrevendo o border de outra forma
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    */
+}
+

@@ -1,0 +1,16 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat; /* a imagem fica do tamanho original */
+    background-position: 100% 10%;  /* dois valores, o primeiro é a distancia que eu quero do lado direito e o segundo, é a distancia que eu quero do TOPO (da página). além de valores em porcentagem, ou centimentros, também pode ser usar palavras já programadas como (right, center, top, bottom, etc) passando  também dois valores. */
+    background-size: cover; /*Caso esteja programado para a imagem não se repetir, este comando fará a imagem cobrir toda a página. */
+    background-attachment: fixed; /*Faz com que a imagem não role quando der Scroll na página, a imagem fica fixa  */
+}   
+
+
+.minha-foto{
+    width: 400px;
+}
+
+p {
+    color: #000000;
+}

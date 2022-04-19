@@ -1,0 +1,53 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    background: #dfdfdf
+    
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.minha-foto{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;  /* Shorthand */
+    border-radius: 100% 100% 100% 100%; /* Arredondar cantos, podendo passar até 4 valores para cada uma das bordas */
+    margin: 30px 30px 0px 30px; /* Shorthand do Margin na ordem > topo, direita, baixo, esquerda */
+    padding: 0px; /* Espaçamento interno --- Shorthand do padding */
+    box-shadow: 0px 0px 10px black;
+}
+
+h1{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+h2{
+    margin-top: 0px;
+    font-style: italic;
+    color: #383838;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+.social-links{
+    text-decoration: none;
+}
+.social-icons{
+    width: 30px;
+}
+
+.ytb{
+    margin: 0px 15px 0px 15px;
+}
